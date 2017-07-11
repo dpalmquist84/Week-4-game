@@ -31,6 +31,13 @@ body {
 	color: #b59c9f;
 	padding: 5px;
 }
+
+.losses{
+	background-color: #edecea;
+	height: 100px;
+	color: #b59c9f;
+	padding: 5px;
+}
 .score{
 	background-color: #edecea;
 	height: 36px;
