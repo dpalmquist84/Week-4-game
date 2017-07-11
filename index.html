@@ -1,10 +1,109 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title></title>
+	<title>Crystal Collector</title>
+
+  	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+  	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+	<!-- Optional theme -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+  	<link rel="stylesheet" type="text/css" href="assets/css/style.css"> 
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+  	<script
+  src="https://code.jquery.com/jquery-3.2.1.min.js"
+  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  crossorigin="anonymous"></script>
+
 </head>
 <body>
-test
+
+
+<div class="row">
+  <div class="crystal">
+  <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+    <p>Crystal Collector</p>
+  </div>
+  </div>
+  <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12">
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
+    <div class="instructions">
+    <p>You will be given a random number at the start of the game</p>
+    <p>There are four crystal below.  By clicking on a crystal you will add a specific amount of point to you total score.</p>
+    <p>You win the game by matching  your total score to random number, you lose the game if your total score goes above the random number.</p>
+    <p>The value of each crystal is hidden form you until you clikc on it.</p>
+    <p>Each time when the game starts, the game will change the values of each crystal</p>
+    </div>
+    </div>
+ 
+  <div class="col-lg-9 col-md-9 col-sm-12 col-xs-12">
+</div>
+</div>
+
+<div class="row">
+  <div class="col-lg-2 col-md-2 col-sm-12 col-xs-12">
+    <div class="guess">
+    <p>Your score to guess: </p>
+    </div>
+  </div>
+
+  <div class="col-lg-1 col-md-1 col-sm-12 col-xs-12">
+    <div class="wins">
+      <p>wins: </p>
+      <p>losses:</p>
+    </div>
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+    <div class="images">
+    
+        <img src="./assets/images/crystal1.png" alt="Crystal 1" class='crystal1'>
+     
+      
+        <img src="./assets/images/crystal2.png" alt="Crystal 2" class='crystal2'>
+      
+      
+      <img src="./assets/images/crystal3.png" alt="Crystal 3" class='crystal3'>
+     
+    
+      <img src="./assets/images/crystal4.png" alt="Crystal 4" class='crystal4'>
+     
+    </div>  
+  </div>
+  <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+    <div class="score">
+    <p>Your total Score is: </p>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+<script src="./assets/javascript/game.js"></script>
+
+
+
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous">
+</script>
+
 
 </body>
 </html>

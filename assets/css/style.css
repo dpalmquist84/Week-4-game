@@ -1,0 +1,46 @@
+body {
+	background-image: url(https://images.freecreatives.com/wp-content/uploads/2016/03/Amazing-Crystal-background.jpg);
+	background-size: contain;
+}
+
+.crystal{
+	height: 200px;
+	width: 200px;
+	background-color: #edecea;
+	font-size: 36px;
+	color: #b59c9f;
+	text-align: center;
+	padding: 1%;
+}
+
+.instructions{
+	background-color: #edecea;
+	color: #b59c9f;
+}
+
+.guess{
+	height: 100px;
+	background-color: #edecea;
+	color: #b59c9f;
+	text-align: center;
+}
+
+.wins{
+	background-color: #edecea;
+	height: 100px;
+	color: #b59c9f;
+	padding: 5px;
+}
+.score{
+	background-color: #edecea;
+	height: 36px;
+	font-size: 18px;
+
+}
+img {
+	background-color: #edecea;
+	height: 50px;
+	width: 50px;
+
+
+}
