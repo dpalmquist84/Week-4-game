@@ -14,6 +14,7 @@ function getRandomInt(min, max) {
   console.log(rand);
   $(".guess").html(rand);
   return rand;
+  $(".score").html("Your score is: " + total);
 }
 getRandomInt();
 game();
@@ -25,12 +26,14 @@ if (rand === total){
   alert('You got it right.  You must be very smart :)')
   $('.wins').html("wins " + wins);
   getRandomInt();
+  total = 0;
  
 } else if (rand < total){
     alert('No more game for YOU');
 	losses++;
 	$(".losses").html("losses " + losses);
 	getRandomInt();
+	total = 0;
 
 }
 }
@@ -40,37 +43,42 @@ if (rand === total){
 $(".crystal1").on("click",function(){
 	total += 10;
 	console.log(total);
-	$('.score').html("Your score is: " + total);
+	$('.score').html("Your total score is: " + total);
 	game();
 });
 
 $(".crystal2").on("click",function(){
 	total += 5;
 	console.log(total);
-	$('.score').html("Your score is: " + total);
+	$('.score').html("Your total score is: " + total);
+	game();
 });
 
 $(".crystal3").on("click",function(){
 	total += 3;
 	console.log(total);
-	$('.score').html("Your score is: " + total);
+	$('.score').html("Your total score is: " + total);
+	game();
 });
 
 $(".crystal4").on("click",function(){
 	total += 1;
 	console.log(total);
-	$('.score').html("Your score is: " + total);
+	$('.score').html("Your total score is: " + total);
+	game();
 });
 
-$(".score").html("Your score is: " + total);
+
 
 //reset the game
 
 	$('#clear').on("click", function(){
 		$(".guess").empty();
 		$(".score").empty();
+        total = 0;
+        $('.score').html("Your total score is: " + total);
 		getRandomInt();
-		game();
+        game();
 	
 });
 
