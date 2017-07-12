@@ -12,7 +12,7 @@ var total = 0;
 function getRandomInt(min, max) {
   rand = Math.floor(Math.random() * (120 - 18 + 1)) + 18;
   console.log(rand);
-  $(".guess").append(rand);
+  $(".guess").html(rand);
   return rand;
 }
 getRandomInt();
@@ -23,11 +23,15 @@ function game(){
 if (rand === total){ 
   wins++;
   alert('You got it right.  You must be very smart :)')
-  $('.wins').append(wins);
+  $('.wins').html("wins " + wins);
+  getRandomInt();
+ 
 } else if (rand < total){
     alert('No more game for YOU');
 	losses++;
-	$(".losses").append(losses);
+	$(".losses").html("losses " + losses);
+	getRandomInt();
+
 }
 }
 
@@ -58,9 +62,19 @@ $(".crystal4").on("click",function(){
 	$('.score').html("Your score is: " + total);
 });
 
-$(".score").append(total);
+$(".score").html("Your score is: " + total);
 
-//logic
+//reset the game
+
+	$('#clear').on("click", function(){
+		$(".guess").empty();
+		$(".score").empty();
+		getRandomInt();
+		game();
+	
+});
+
+
 
 
 

@@ -8,34 +8,34 @@ body {
 	width: 200px;
 	background-color: #edecea;
 	font-size: 36px;
-	color: #b59c9f;
+	/*color: #63c363;*/
 	text-align: center;
 	padding: 1%;
 }
 
 .instructions{
 	background-color: #edecea;
-	color: #b59c9f;
+	/*color: #63c363;*/
 }
 
 .guess{
 	height: 100px;
 	background-color: #edecea;
-	color: #b59c9f;
+	/*color: #63c363;*/
 	text-align: center;
 }
 
 .wins{
 	background-color: #edecea;
 	height: 100px;
-	color: #b59c9f;
+	/*color: #63c363;*/
 	padding: 5px;
 }
 
 .losses{
 	background-color: #edecea;
 	height: 100px;
-	color: #b59c9f;
+	/*color: #63c363;*/
 	padding: 5px;
 }
 .score{
