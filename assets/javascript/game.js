@@ -12,7 +12,7 @@ var total = 0;
 function getRandomInt(min, max) {
   rand = Math.floor(Math.random() * (120 - 18 + 1)) + 18;
   console.log(rand);
-  $(".guess").html(rand);
+  $(".guess").html(`your score to quess is: ${rand}`);
   return rand;
   $(".score").html("Your score is: " + total);
 }

@@ -4,13 +4,16 @@ body {
 }
 
 .crystal{
-	height: 200px;
-	width: 200px;
+	
 	background-color: #edecea;
 	font-size: 36px;
 	/*color: #63c363;*/
 	text-align: center;
 	padding: 1%;
+}
+
+.jumbotron {
+	font-size: 48px;
 }
 
 .instructions{
@@ -19,29 +22,37 @@ body {
 }
 
 .guess{
-	height: 100px;
+	height: 50px;
 	background-color: #edecea;
 	/*color: #63c363;*/
 	text-align: center;
+	font-size: 36px;
 }
 
 .wins{
 	background-color: #edecea;
-	height: 100px;
+	height: 50px;
 	/*color: #63c363;*/
 	padding: 5px;
+	font-size: 36px;
+	text-align: center;
 }
 
 .losses{
 	background-color: #edecea;
-	height: 100px;
+	height: 50px;
 	/*color: #63c363;*/
 	padding: 5px;
+	font-size: 36px;
+	text-align: center;
 }
 .score{
 	background-color: #edecea;
-	height: 36px;
-	font-size: 18px;
+	height: 50px;
+	/*color: #63c363;*/
+	padding: 5px;
+	font-size: 36px;
+	text-align: center;
 
 }
 img {
@@ -50,4 +61,7 @@ img {
 	width: 50px;
 
 
+}
+.images {
+	text-align: center;
 }
