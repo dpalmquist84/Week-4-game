@@ -25,6 +25,7 @@ if (rand === total){
   wins++;
   alert('You got it right.  You must be very smart :)')
   $('.wins').html("wins " + wins);
+  $('.score').empty();
   getRandomInt();
   total = 0;
  
@@ -32,6 +33,7 @@ if (rand === total){
     alert('No more game for YOU');
 	losses++;
 	$(".losses").html("losses " + losses);
+	$('.score').empty();
 	getRandomInt();
 	total = 0;
 
